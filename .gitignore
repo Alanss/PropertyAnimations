@@ -6,3 +6,15 @@
 .DS_Store
 /build
 /captures
+.idea/.name
+.idea/compiler.xml
+.idea/copyright/profiles_settings.xml
+.idea/encodings.xml
+.idea/gradle.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/runConfigurations.xml
+.idea/vcs.xml
+app/src/androidTest/java/com/alan/propertyanimation/ApplicationTest.java
+app/src/test/java/com/alan/propertyanimation/ExampleUnitTest.java
+gradle/wrapper/gradle-wrapper.properties
