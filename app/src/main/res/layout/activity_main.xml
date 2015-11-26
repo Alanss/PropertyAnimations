@@ -9,9 +9,30 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.alan.propertyanimation.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/valueAnimator"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="ValueAnimator" />
+
+    <Button
+        android:id="@+id/objectAnimator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/valueAnimator"
+        android:text="ObjectAnimator" />
+    <Button
+        android:id="@+id/combinationAnimation"
+        android:layout_width="match_parent"
+        android:layout_below="@id/objectAnimator"
+        android:text="CombinationAnimation"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/animatorXml"
+        android:text="PropertyAnimatorXml"
+        android:layout_below="@id/combinationAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 
 </RelativeLayout>
